@@ -1,0 +1,177 @@
+3.12.21  
+* For the moment, reverting to reloading of order page instead of ajax replace (introduced in 3.12.20) as it may break some other 3rd party plugins behaviour  
+12th February 2021  
+
+3.12.20  
+* Fix: Some potential php notices eliminated  
+* Fix: Added admin css custom stylesheets were not being read/enqueued  
+* Fix: Some gateway setting potentially got lost when updating/saving license keys  
+* Fix: Make sure spinner elements in minicart and maincart have unique id's  
+* Fix: Stop WP complaining in healthcheck due to usage of php sessions  
+* Fix: Make sure get_selected_gateway() and is_pickup() return the correct results immediately on changing of value  
+* Tweak: Set some sensible default values for not yet defined common gateway parameters  
+* Tweak: Some minor verbiage update in admin  
+* Tweak: Minor css tweaks to help consistency across themes  
+* Tweak: Replace order page by ajax (instead of reloading page entirely) when switching from pickup to delivery and vice versa  
+* Tweak: Immediately updating cart when using spinner up/down arrows (i.e single quantity increments)  
+* Tweak: Wrapping gateway label in span  
+* Added: filter 'wppizza_format_price_auto' to display prices without trailing zeros (instead of fixed decimals with rounding)  
+* Added: apply 'term_description' filter for wppizza category descriptions (allows shortcodes in descriptions for example)  
+* Added: 'delete_order' attribute added to [wppizza_admin type='admin_orderhistory'] shortcode (delete order  privileges required)  
+* Dev: A little more consistency in some naming conventions  
+* Dev: Added wppizza_default_gateway() helper function
+* Dev: Make sure to convert entities in quickedit links 'onclick' events  
+* Dev: Make order parameters passed on to json cart (wppizzaCartJson) filterable. Additionally including selected gateway id.  
+12th February 2021  
+
+3.12.19  
+* Readme updated  
+* Tweak: some more error tracing details added in a few places  
+28th December 2020  
+
+3.12.18  
+* Tested with WP 5.6  
+* Fix: Order notifications (emails etc) might erroneously be marked as prepaid for COD type orders - updating the plugin is strongly advised because of this !  
+* Fix: Categories might not be displayed in "WPPizza->Category" page when adding a new category via the post edit screen  
+* Fix: Some more (inconsequential) php notices eliminated  
+* Update: very minor css tweaks  
+07th December 2020  
+
+3.12.17  
+* Added: Option to also allow for quantity update in minicart  (WPPizza-> Order Settings -> Item and Cart Updates and Amendments)  
+19th November 2020  
+
+3.12.16  
+* Added: Filter to set plaintext templates max characters per line (alongside the already available global constant)  
+* Added: Allow for arbitrary footer text in print templates too  
+* Added: Shortcodes to display (most) wppizza options eg. [wppizza type="options" page="localization" parameter="contains_additives"]  
+* Added: Action Hook(s) before and after getting print template markup  
+* Update: Minor tidyup in some places / minor css tweaks  
+* Update: Better handling of very loooooong lines in plaintext templates  
+* Update: .pot files   
+* Fix: Cart/Order Item remove button (if enabled) not alwasy following set position settings  
+09th November 2020  
+
+3.12.15  
+* Fix: Added missing js trigger for admin refund status update    
+10th September 2020  
+
+3.12.14  
+* Added: Choice of standard allergens (with optional icons) under "WPPizza->Additives"  
+* Added: Choice of some common foodtypes (with optional icons) under "WPPizza->Additives"  
+* Added: pt_BR, pt_PT localization  
+* Updated: various other localization po/mo files  
+* Tweak: do not change navigation menu title of order page (if displayed in navigation menu) on order completion/cancellation etc     
+* Tweak: Minor css updates (SKU related - if used)  
+* Tweak: Default initial reports range to last 30 Days  
+* Fix: Some more potential phpnotices eliminated  
+28th August 2020  
+
+3.12.13  
+* Added: Optionally allow to add percentage selection to tips on checkout (WPPizza -> Order Settings)  
+* Tweak: A bit more consistency in a few text strings, to eliminate some superflous text strings in any translations  
+* Fix: Make sure to also add #wppizza-cart-json data if minicart is enabled only without the main cart being displayed  
+26th June 2020  	
+	
+3.12.12  
+* Fix: Templates sections - though saved in the right order - not displayed in the right order in WPPizza->Templates  
+* Fix: Todays orders totals not shown in admin dashboard widget  
+* Fix: decode entities in address search url [wppizza_admin type='admin_orderhistory'] shortcode  
+* Tweak: Make address search url [wppizza_admin type='admin_orderhistory'] filterable  
+* Tweak: Allow for multiple user id or ip address for testing things even when shop is naturally closed (WPPizza->Tools) 
+* Tweak: Minor css tweak in thank you page for 'label' elements  
+21st June 2020  
+
+3.12.11   
+* Tweak/Maintenenace: reduce memory consumption for "WPPizza -> Reports" page as well as admin dashboard widget  
+* Tweak/Maintenenace: repair serialization errors - if any - in reports data of orders (*might* be required for some old/legacy orders)  
+10th June 2020  
+
+3.12.10   
+* Added: Search by email, transaction id, order id in "Wppizza-> Order History"  
+* Added: Allow query for transaction id in 'wppizza_get_orders()' function  
+* Fix: Some edgecase phpnotices eliminated  
+* Tweak: Updated some verbiage in admin  
+* Tweak: Added postid as parameter to 'wppizza_filter_quick_edit_link_functions' and 'wppizza_filter_save_quick_edit_data' filter  
+* Tweak: Capture some more data in error logs  
+4th June 2020  
+
+3.12.9   
+* Tweak: Deleted some unused files  
+* Added: Allow dates of custom opening times to repeat yearly  
+* Added: Display minimum order value in minicart cartdetails if not reached    
+* Fix: Some scripts were unnecessarily enqueued on checkout if cart is empty (also eliminates some potential false positive error emails )  
+26th May 2020  
+
+3.12.8   
+* Note: Apologies for the flurry of updates in the last few days - am trying to solve an edge-case, non-reproducable issue that seems to exist when using mobile devices with gateways that offer inline (as opposed to redirect) payments    
+* Tweak: In line with the above, make some more js functions run later  
+18th May 2020  
+
+3.12.7   
+* Tweak: make some javascript functions run later for more reliability with certain payment methods  
+* Fix: Firefox might throw an event = undefined error, stopping orders from being submitted  
+* Fix: "View Details" of some premium wppizza plugins might have shown information of another plugin  
+18th May 2020  
+
+3.12.6   
+* Tweak: update to the handling of premium plugin updates availability (gateways might not have updated)  
+15th May 2020  
+
+3.12.5   
+* Fix: In some edge cases (non-redirecting gateways) loading screen might not have been removed on checkout when updating cart quantities     
+14th May 2020  
+
+3.12.4   
+* Fix: Some more php notices eliminated   
+* Fix: Added missing 'supports_refunds' boolean parameter for gateways when used with certain action hook priorities  
+* Fix: Moved 'wppizza_filter_showorder_on_thankyou' filter to a more useful and better place  
+* Fix: Make sure "size" meta data gets saved with menu items (posts) if sizes-id == 0  
+* Tweak: Make sure to not enqueue scripts unnecessarily on checkout if shop is closed (also eliminates some potential false positive "10005" type errors )  
+* Added: Allow shop to be forced open for a specific user id or ip address for testing things even when shop is naturally closed (WPPizza->Tools)  
+14th May 2020  
+
+
+3.12.3   
+* Fix: some more possible php notices eliminated  
+* Tweak: more robust handling of premium plugin updates availability  
+* Tweak: make quickedit link filterable  
+* Tweak: streamlined the js in a couple of places  
+* Added: added a few more targetable css classes in a select few places    
+* Added: Add "Post ID" info before quickedit link  
+* Added: current blog id to localized js variables
+* Added: do_action after post meta data has been updated/saved ('wppizza_after_update_meta_data')  
+* Added: hidden field (#wppizza-cart-json) with json data containing current cart values accessible in any js      
+* Added: some globally available helper functions for convenience ('wppizza_is_ajax', 'wppizza_maybe_switch_blog', 'wppizza_maybe_restore_blog')
+11th May 2020  
+
+3.12.2   
+* Added: global helper 'wppizza_format_minor_currency'  
+* Added: A little bit more info in systools, making display of constant filterable  
+1st May 2020  
+
+
+3.12.1  
+* Added: Optional display of "empty cart" button in minicart  
+* Added: Breakdown of tax rates/values in 'detailed' reports export  
+* Added: Helper function ('wppizza_reports_data') to allow retrieval of export csv data outside of admin reports page  
+* Fix: In some circumstances 2 clicks of submit button were needed to arraive at final confirmation page (if used). (caused by v3.12 update)  
+* Fix: Potential tax fractions rounding issue (if rounding up) due by php precisions in edge cases  
+* Fix: Possible php notices eliminated in some action hooks  
+24th April 2020  
+
+3.12  
+* Fix: some more potential php notices eliminated  
+* Fix: added missing 2nd and 3rd parameter to applied 'widget_title' filter  
+* Added: Allow selection of non-thumbnail image sizes for wppizza menu items featured images (Wppizza->Layout) plus adding 'wppizza_filter_featured_image_size' for even more granular control  
+* Added: Some globally available helper functions  (wppizza_get_wordpress_image_sizes)  
+* Added: (as yet unused) Ajax function to update customer/userdata on checkout page  
+* Added: Allow 3rd party plugins to interrupt the checkout process via js/ajax right after clicking submit/pay buttons (mainly for timesensitive plugins)  
+* Tweak: Allow for query on 'mail_sent' (to shop) in wppizza_get_orders
+* Tweak: Allow orders to be recovered (from WPPizza->Orderhistory->Failed) even when email to shop failed. Allow also to *always* complete orders even if email to shop failed (WPPizza->Tools). Prepay orders only.
+* Tweak: Some slight performance improvements in a few places  
+* Tweak: Slight improvements as to how any potential order errors are being displayed in the frontend.  
+* Tweak: (Admin) Some minor verbiage updates  
+* Tweak: (Admin) ensure validity of dates in datepicker (where used)  
+* Tweak: General TidyUp in a few of places, removing unused parameters, long since deprecated filters and so forth   
+16th April 2020  

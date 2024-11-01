@@ -1,0 +1,166 @@
+3.11.3  
+* Fix: some possible php notices eliminated for upgrades from very, very old wppizza installations  
+* Added: filter [wppizza_filter_{type}_formfields] to allow easier filtering of order and confirmation page user form fields  
+07th April 2020  
+
+3.11.2  
+* Fix: several default parameters not being set on new installs (since 3.11.1)  
+* Fix: some possible php notices on new installs eliminated  
+* Fix: order page could still show personal info etc eve if cart is empty (though checkout would not be possible in this case regardless)  
+31st March 2020  
+
+
+3.11.1  
+* Fix: some install constants - if used - were ignored  
+* Fix: some more possible php notices eliminated  
+* Update: jquery validation library/methods/locale updated (v1.19.1)  
+* Update: replaced to be deprecated current_time() with current_datetime() throughout  
+* Tweak: '.wppizza-load-redirect' added to css (will not get removed on ajaxStop)  
+* Tweak: allow error reason in thankyou page title (if error)  
+* Tweak: split submit nonces and buttons into separate array parameters on order/confirmation page for easier filtering  
+* Tweak: removed superflous hidden wppizza_no_cache input  
+* Tweak: added additional parameters to 'wppizza_filter_pages_order_markup' and 'wppizza_filter_pages_confirmorder_markup' for easier filtering  
+28th March 2020  
+
+3.11  
+* Fix: 'wppizza_filter_showorder_on_thankyou' moved further down in the chain to actually be effective  
+* Fix: force css priority to always be integer avoiding any possible php notices if not defined yet.  
+* Added : 'QUOTE' payment status to enumerated peyment_status column  
+* Added : Allow gateways to only be accessible for users with 'gatewayRequiredCaps' privileges/caps set in gateway   
+* Tweak : Email Templates - distinctly set all 'table' elements to "position:relative" as default  
+* Action (New): 'wppizza_after_ajax' after each wppizza ajax request (incl. parameters to distinguish between request)  
+* Action (New): 'wppizza_session_cart_items' - allow cart session to be modified before passing it on to cart calculations  
+* Action (Tweak): 'wppizza_add_order_meta' - 2nd (order) parameter added  
+* Filter (New): 'wppizza_filter_plaintext_template_{section_key}_section' to be able to filter each (plaintext) template sections individually  
+* Filter (New): 'wppizza_filter_orderhistory_order_markup' for easier filtering of order history output for each order  
+* Filter (New): 'wppizza_filter_order_history_status_select' make orderhistory dropdowns filterable  
+* Filter (New): 'wppizza_filter_template_markup_html_body' to make html templates body tag distinctly filterable  
+* Filter (New): 'wppizza_filter_orderpage_localization' to allow easy filtering of localization strings in order/confirmation and thank you pages  
+* Filter (New): 'wppizza_filter_payment_status_completed' allow final paymnt status to be somethinig other than "COMPLETED" (within restrictions of enum values)  
+* Filter (New): 'wppizza_filter_orders_query_sort' make orders query sortorder filterable  
+* Filter (Tweak): 'wppizza_filter_template_options' - 3rd parameter added  
+* Filter (Tweak): 'wppizza_filter_template_{section_key}_section' - 4th (order) parameter added  
+* Filter (Tweak): 'wppizza_filter_templates_html_print_css' - 2nd (order) parameter added  
+* Filter (Tweak): 'wppizza_filter_template_markup' - 4th (template_id ) parameter added (html templates)  
+* Filter (Tweak): 'wppizza_filter_template_markup_plaintext' - 3rd and 4th (template_id, order) parameters added  
+* Filter (Tweak): 'wppizza_filter_orders_query' - for consistency, added 'args' as second parameter. Previous 2nd parameter 'type' is now the 3rd parameter. In the (unlikely) event you were using the 'type' parameter in this filter, please update your filter/function accordingly .  
+* Tweak : Passing on template id to internal get_template_email_plaintext_sections_markup()  
+* Tweak : Allow for additional caps to be added on install if using wppizza_phi_install helper function.  
+16th March 2020  
+
+3.10.12  
+* Fix: Visibility of "create account" text/information under selection potentially inversed  
+* Fix: Tip/Gratuities potentially not applied in non-english setups  
+* Fix: of 3.10.10  
+* Fix: checkout page potentially showing old cart data in some edge cases (introduced in 3.10.2)
+* Tweak: localized taxes percentage on checkout page 
+26th February 2020  
+
+
+3.10.11  
+* Fix: Reports of several issues in 3.10.10, so this reverts back to 3.10.9   
+24th February 2020  
+
+3.10.10  
+* Fix: checkout page potentially showing old cart data in some edge cases (introduced in 3.10.2)
+* Tweak: htaccess added to wppizza directory to prevent plugin files themselves from being unnecessarily being indexed  
+23rd February 2020  
+
+3.10.9  
+* Fix: Entered user data (name, address etc) was lost (since v3.10.2) when using confirmation page  
+* Fix: (php >=7.4) Some more possible php notices eliminated 
+12th February 2020  
+
+3.10.8  
+* Fix [WPML Compatibility - Admin Screens]: Make sure - where necessary - to switch back to selected admin language of user as opposed to site language   
+22nd January 2020  
+
+3.10.7  
+* Fix: A user could potentially select a disabled gateway  
+* Fix: Broken link in WPPizza->Tools -> System Info : Session Tests  
+* Fix: Missing pagination css class in WPPizza->Customers  
+* Tweak: Make number of customers per page (WPPizza->Customers) filterable  
+* Tweak: Added 'order_status' info to sales data array   
+* Tweak: Doubly Ensure 'Rejected' orders are not included in sales/reports data (just in case)  
+* Tweak: Eliminate some potential sales/reports data and size/additives php notices for updates from pre wppizza 3.x installs  
+3rd January 2020  
+
+3.10.6  
+* Fix: Reports Sales data should include all orders that have order items, even if total is zero (due to discounts for example) 
+* Tweak: Some meore detailed error descriptions in some places  
+* Tweak: Added .pot files  
+* Tweak: made default quantity input for item(s) in cart smaller when waiting for spinner input to finish loading  
+* Tweak: made order dates/times follow format in wordpress settings (in most places)  
+* Tweak: Allow for help screen if required in "Customers" admin page  
+* Tweak: Some admin css tweaks for small screen devices  
+* Tweak: Minor tweaks in admin order history javascripts (some status changes were not immediately reflected on the page)  
+* Tweak: Added SizesID (i.e "blogid.postid.taxonomy(category)id.[added-sizesid].sizeid") to item array *key* in cart and orders for more "uniqueness" if required  
+20th December 2019  
+
+3.10.5  
+* Fix: CSS Spinner/Loading gif not found if wordpress installed in a subdirectory  
+* Fix: Some more possible php(7) notices/warnings eliminated  
+* Tweak: Eliminated some false positive error messages in any ipn notifications  
+* Tweak: Added 'total_discounts' as additional parameter to ordervars values  
+* Tweak: added htaccess to css and js directories to enable deflate and expiry (if supported by server)  
+* Tweak: Some inconsequential typos  
+* Updated: Bundled edd plugin updater class  
+7th December 2019  
+
+3.10.4  
+* Fix: WPML compatibility - additives displaying sortnumber instead of additives name (update to 3.10.3 fix)  
+15th October 2019  
+
+3.10.3  
+* Fix: WPML compatibility - additives displaying sortnumber instead of additives name  
+* Tweak: Adding class to tr element of category (if displayed) in cart/order  
+* Tweak: Minor css tweaks for additives display  
+11th October 2019  
+
+3.10.2  
+* Fix: Reports Range dropdown (WPPizza -> Reports) not working when changing selection with mouse  
+* Fix: (Plugin Compatibility) Ensure orders table does not get written to until reaching order page (if any)  
+* Tweak: Moved minimum order value for pickup (WPPizza -> Order Settings) into pickup section  
+* Tweak: Minor admin css tweak (WPPizza->Reports / WPPizza->Menu Items : Additives)  
+* Tweak: Minor frontend css tweak (making cart delete elements 'td' fit the delete button)  
+* Tweak: setting SCRIPT_DEBUG constant will now load unminified scripts (in line with regular WP behaviour) 
+* Tweak: If order/discount/menu item settings allow for a 0 value order to be submitted, always force COD gateway if total order value is zero (as cc gateways will not process 0 value orders)
+* Tweak: Added more userfriendly reason id/string for checkout error 20002 (Checkout Prohibited)  
+* Tweak: Apply set delivery charges in "Free delivery" setting if "order value reaches" set to 'n/a' (extensions only)  
+* Added [Dev]: global wppizzaUpdateCart() js function to allow cart update called by 3rd party plugins  
+* Added [Dev]: some global session data retrieval helper functions, 	
+29th September 2019  
+
+
+3.10.1  
+* Fix: Error in plugin dev helper functions (v3.10)   
+* Fix: Making sure orders mta table also gets truncated if truncating main order table in WPPizza->tools  
+* Fix: Payment Due could been shown as 0 in vertain circumstances when using "Credit Card on Delivery" gateway  
+* Tweaks: minor tweaks (adding some mor parameters that get returned) in wppizza_completed_businessdays function 
+19th August 2019  
+
+
+3.10  
+* Fix: Wrong comparison argument for order_date_before query in wppizza_get_orders function  
+* Fix: "Tips" - if any - were shown as input field on thank you page  
+* Fix: Possible wrong colspan count when displaying category in cart  
+* Fix: Wppizza taxonomies were missing in post edit screen if gutenberg editor was enabled  
+* Fix: Loopback errors in WP health check admin page (WP5.2+)  
+* Added: Allow for "read more" links/tags in post content (enable in WPPizza->Layout->General)  
+* Added: wppizza_admin_pagination() helper function  
+* Added: wppizza_delete_order() helper function  
+* Update: Improve responsiveness of default style for small screen devices  
+* Update: Some minor css tweaks    
+* Update: Chosen js/css library updated  
+* Tweak: Allow for display of featured image in quickedit    
+* Tweak: Using chosen js library for selects in admin    
+* Tweak: Allow to discern between Errors and Notices in admin email Errors and Error logs    
+* Tweak: Removed some unused files  
+* Tweak: Added title to title element in email/print html templates (to generate appropriate titles when saving as pdf's for example)  
+* Tweak: Eliminated some more possible php notices  
+* Tweak: Some minor admin text string updates to aid clarification  
+* Tweak: Added 3rd (order) parameter to 'wppizza_filter_template_markup' filter  
+* Tweak: Added css classes to select/multiselects in admin 
+* Internal: Added html markup to return of admin_pagination() helper  
+* Internal: Various updates to plugin dev functions  
+13th August 2019 

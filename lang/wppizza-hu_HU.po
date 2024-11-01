@@ -1,0 +1,1354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPizza  v3.x - First Install Frontend Localization\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-06 21:46+0000\n"
+"PO-Revision-Date: 2022-12-06 21:46+0000\n"
+"Last-Translator: ollybach <dev@wp-pizza.com>\n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/modules/mod.additives.additives.php:301
+msgid "Food coloring"
+msgstr "Ételszínezék"
+
+#: ../classes/modules/mod.additives.additives.php:302
+msgid "Flavor enhancers"
+msgstr "Ízesítők"
+
+#: ../classes/modules/mod.additives.additives.php:303
+msgid "Preservatives"
+msgstr "Tartósítószerek"
+
+#: ../classes/modules/mod.additives.additives.php:304
+msgid "Stabilizers"
+msgstr "Stabilizátorok"
+
+#: ../classes/modules/mod.additives.additives.php:305
+msgid "Sweeteners"
+msgstr "Édesítőszerek"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:376
+msgid "Gluten"
+msgstr "Glutén"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:377
+msgid "Gluten Free"
+msgstr "Nincs Glutén"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:378
+msgid "Crustaceans"
+msgstr "Rákfélék"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:379
+msgid "Crustacean Free"
+msgstr "Nincs Rákfélék"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:380
+msgid "Eggs"
+msgstr "Tojás"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:381
+msgid "Egg Free"
+msgstr "Nincs Tojás"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:382
+msgid "Fish"
+msgstr "Hal"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:383
+msgid "Fish Free"
+msgstr "Nincs "
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:384
+msgid "Peanuts"
+msgstr "Földimogyoró"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:385
+msgid "Peanut Free"
+msgstr "Nincs Földimogyoró"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:386
+msgid "Soybeans"
+msgstr "Szójabab"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:387
+msgid "Soybean Free"
+msgstr "Nincs Szójabab"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:388
+msgid "Milk / Lactose"
+msgstr "Tej / Laktóz"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:389
+msgid "Milk / Lactose Free"
+msgstr "Nincs Tej / Laktóz"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:390
+msgid "Nuts"
+msgstr "Dió"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:391
+msgid "Free from Nuts"
+msgstr "Nincs Dió"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:392
+msgid "Celery"
+msgstr "Zeller"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:393
+msgid "Free from Celery"
+msgstr "Nincs zeller"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:394
+msgid "Mustard"
+msgstr "Mustár"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:395
+msgid "No Mustard"
+msgstr "Nincs Mustár"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:396
+msgid "Sesame"
+msgstr "Szezám"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:397
+msgid "Sesame Free"
+msgstr "Nincs Szezám"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:398
+msgid "Sulphites"
+msgstr "Szulfitok"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:399
+msgid "Sulphite Free"
+msgstr "Nincs Szulfitok"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:400
+msgid "Lupin"
+msgstr "Lupin"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:401
+msgid "Lupin Free"
+msgstr "Nincs Lupin"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:402
+msgid "Molluscs"
+msgstr "Kagylók"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.allergens.php:403
+msgid "No Molluscs"
+msgstr "Nincs Kagylók"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.foodtype.php:357
+msgid "Mild"
+msgstr "Enyhe"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.foodtype.php:358
+msgid "Spicy"
+msgstr "Közepes"
+
+# Needs Verification
+# "Hot" as in spicy food - (not temperature)
+#: ../classes/modules/mod.additives.foodtype.php:359
+msgid "Hot"
+msgstr "Fűszeres"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.foodtype.php:360
+msgid "Very Hot"
+msgstr "Nagyon fűszeres"
+
+#: ../classes/modules/mod.additives.foodtype.php:361
+msgid "Frozen"
+msgstr "Befagyasztva"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.foodtype.php:362
+msgid "Halal"
+msgstr "Halal"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.foodtype.php:363
+msgid "Kosher"
+msgstr "Kóser"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.foodtype.php:364
+msgid "Vegetarian"
+msgstr "Vegetáriánus"
+
+# Needs Verification
+#: ../classes/modules/mod.additives.foodtype.php:365
+msgid "Vegan"
+msgstr "Vegán"
+
+#: ../classes/modules/mod.localization.common.php:1409
+msgid "contains additives"
+msgstr "contains additives"
+
+#: ../classes/modules/mod.localization.common.php:1410
+msgid "add to cart"
+msgstr "Hozzáadás a kosárhoz"
+
+#: ../classes/modules/mod.localization.common.php:1411
+msgid "sorry, we are currently closed"
+msgstr "sorry, we are currently closed"
+
+#: ../classes/modules/mod.localization.common.php:1412
+msgid "please choose a size"
+msgstr "please choose a size"
+
+#: ../classes/modules/mod.localization.common.php:1413
+msgid "<div>&#10004;</div>item added"
+msgstr "<div>✔</div>elem hozzáadva"
+
+#: ../classes/modules/mod.localization.common.php:1414
+msgid "no results found"
+msgstr "no results found"
+
+#: ../classes/modules/mod.localization.common.php:1415
+msgid "uncategorised"
+msgstr "uncategorised"
+
+#: ../classes/modules/mod.localization.common.php:1416
+msgid "< previous"
+msgstr "<az előző"
+
+#: ../classes/modules/mod.localization.common.php:1417
+msgid "next >"
+msgstr "next >"
+
+#: ../classes/modules/mod.localization.common.php:1418
+#, php-format
+msgid "%s - %s of %s"
+msgstr "%s - %s: %s"
+
+#: ../classes/modules/mod.localization.common.php:1419
+msgid "currently closed"
+msgstr "currently closed"
+
+#: ../classes/modules/mod.localization.common.php:1420
+msgid "empty cart"
+msgstr "kosár kiürítése"
+
+#: ../classes/modules/mod.localization.common.php:1421
+msgid "view cart"
+msgstr "view cart"
+
+#: ../classes/modules/mod.localization.common.php:1422
+msgid "your cart is empty"
+msgstr "your cart is empty"
+
+#: ../classes/modules/mod.localization.common.php:1423
+msgid "remove from cart"
+msgstr "remove from cart"
+
+#: ../classes/modules/mod.localization.common.php:1424
+msgid "place your order"
+msgstr "megrendelés leadása"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1425
+msgid "checkout"
+msgstr "checkout"
+
+#: ../classes/modules/mod.localization.common.php:1426
+msgid "we're closed"
+msgstr "we're closed"
+
+#: ../classes/modules/mod.localization.common.php:1427
+msgid "You have no previous orders"
+msgstr "You have no previous orders"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1428
+#: ../classes/modules/mod.localization.common.php:1523
+msgid "Order Details"
+msgstr "Order Details"
+
+#: ../classes/modules/mod.localization.common.php:1429
+msgid "Transaction Details"
+msgstr "Transaction Details"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1430
+msgid "Delivered:"
+msgstr "Szállított:"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1431
+#, fuzzy
+#| msgid "your order"
+msgid "Your order"
+msgstr "your order"
+
+#: ../classes/modules/mod.localization.common.php:1432
+#, fuzzy
+#| msgid "send order"
+msgid "Send order"
+msgstr "megrendelés"
+
+#: ../classes/modules/mod.localization.common.php:1433
+#, fuzzy
+#| msgid "update order"
+msgid "Update order"
+msgstr "update order"
+
+#: ../classes/modules/mod.localization.common.php:1434
+#, fuzzy
+#| msgid "please enter the required information below"
+msgid "Please enter the required information below"
+msgstr "kérlek add meg az alábbiakban a szükséges információkat"
+
+#: ../classes/modules/mod.localization.common.php:1435
+#, fuzzy
+#| msgid "handling charge"
+msgid "Handling charge"
+msgstr "handling charge"
+
+#: ../classes/modules/mod.localization.common.php:1436
+#, fuzzy
+#| msgid "calculated on checkout"
+msgid "Calculated on checkout"
+msgstr "calculated on checkout"
+
+#: ../classes/modules/mod.localization.common.php:1437
+#, fuzzy
+#| msgid "this is a required field"
+msgid "This is a required field"
+msgstr "this is a required field"
+
+#: ../classes/modules/mod.localization.common.php:1438
+#, fuzzy
+#| msgid "invalid email address"
+msgid "Invalid email address"
+msgstr "invalid email address"
+
+#: ../classes/modules/mod.localization.common.php:1439
+#, fuzzy
+#| msgid "decimal numbers only please"
+msgid "Decimal numbers only please"
+msgstr "decimal numbers only please"
+
+#: ../classes/modules/mod.localization.common.php:1440
+#, fuzzy
+#| msgid "thank you"
+msgid "Thank you"
+msgstr "thank you"
+
+#: ../classes/modules/mod.localization.common.php:1441
+#, fuzzy
+#| msgid "thank you, we have received your order"
+msgid "Thank you, we have received your order"
+msgstr "thank you, we have received your order"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1442
+#, fuzzy
+#| msgid "personal information"
+msgid "Personal information"
+msgstr "personal information"
+
+#: ../classes/modules/mod.localization.common.php:1443
+#, fuzzy
+#| msgid "order details"
+msgid "Order details"
+msgstr "Order Details"
+
+#: ../classes/modules/mod.localization.common.php:1444
+msgid "Apologies. There was an error receiving your order. Please try again."
+msgstr "Apologies. There was an error receiving your order. Please try again."
+
+#: ../classes/modules/mod.localization.common.php:1445
+msgid "Apologies. There was an error receiving your order. Please contact us."
+msgstr "Apologies. There was an error receiving your order. Please contact us."
+
+#: ../classes/modules/mod.localization.common.php:1446
+msgid "Order cancelled"
+msgstr "Order cancelled"
+
+#: ../classes/modules/mod.localization.common.php:1447
+msgid "This order has been cancelled. Thank you."
+msgstr "This order has been cancelled. Thank you."
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1448
+msgid "Processing Payment"
+msgstr "Processing Payment"
+
+#: ../classes/modules/mod.localization.common.php:1449
+msgid ""
+"<p>We are processing your payment! This page will automatically refresh and "
+"check again in a few seconds. Please wait.....</p><p>If this page appears "
+"for more than a minute, please contact us stating the following order "
+"details</p>"
+msgstr ""
+"<p>Feldolgozzuk a fizetését! Ez az oldal automatikusan frissül, és néhány "
+"másodperc en belül újra bejelentkezik. várj, kérlek.....</p><p>Ha ez az "
+"oldal egy percnél tovább jelenik meg, kérjük, vegye fel velünk a kapcsolatot "
+"a következő rendelési adatok kal.</p>"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1450
+msgid "Payment Pending"
+msgstr "Payment Pending"
+
+#: ../classes/modules/mod.localization.common.php:1451
+#, php-format
+msgid ""
+"<p>Your payment has not yet been sent to us by your payment provider.</"
+"p><p>As soon as we have received your payment, a notification will be sent "
+"to you and we will process your order.</p><p><strong>Please note: we have no "
+"control over how quickly your provider will settle payments</strong></"
+"p><p>This page will refresh periodically, but you can also return to this "
+"page using <a href=\"%s\">this link</a> to check back yourself later.</p>"
+msgstr ""
+"<p>A befizetést még nem küldte el nekünk a fizetési szolgáltató.</p><p>Amint "
+"megkaptuk a befizetést, értesítést küldünk Önnek, és feldolgozzuk a "
+"megrendelését.</p><p><strong>Kérjük, vegye figyelembe: nincs rászabályzónk "
+"arra, hogy a szolgáltatómilyen gyorsan rendezi a kifizetéseket</strong></"
+"p><p>Ez az oldal rendszeresen frissül, de ezen <a href=\"%s\">a linken</a> "
+"is visszatérhet erre az oldalra, hogy később visszatérjen.</p>"
+
+#: ../classes/modules/mod.localization.common.php:1452
+msgid "Payment Accepted - Awaiting confirmation"
+msgstr "Payment Accepted - Awaiting confirmation"
+
+#: ../classes/modules/mod.localization.common.php:1453
+msgid ""
+"<p>Your payment was accepted but has not yet been confirmed.</p><p>You will "
+"receive another email when your payment has been confirmed. Your order can "
+"not be processed until final confirmation has been received.</p><p>Please be "
+"patient</p>"
+msgstr ""
+"<p>A kifizetést elfogadták, de még nem erősítették meg.</p><p>A befizetés "
+"visszafogadása után újabb e-mailt fog kapni. Megrendelése nem dolgozható "
+"fel, amíg a végleges visszaigazolás meg nem érkezett.</p><p>Kérjük, legyen "
+"türelemmel</p>"
+
+#: ../classes/modules/mod.localization.common.php:1454
+msgid "Payment Confirmed"
+msgstr "Payment Confirmed"
+
+#: ../classes/modules/mod.localization.common.php:1455
+msgid "<p>Your payment has been confirmed. Thank you.</p>"
+msgstr "<p>A befizetés vissza lett firmál. köszönöm.</p>"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1456
+msgid "Your order at"
+msgstr "Your order at"
+
+#: ../classes/modules/mod.localization.common.php:1457
+msgid "Please enter your payment details"
+msgstr "Please enter your payment details"
+
+#: ../classes/modules/mod.localization.common.php:1458
+msgid "Sorry, this order can not be found."
+msgstr "Sorry, this order can not be found."
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1459
+msgid "Return to shop"
+msgstr "Return to shop"
+
+#: ../classes/modules/mod.localization.common.php:1461
+#, fuzzy
+#| msgid "update my user data with the details above"
+msgid "Update my user data with the details above"
+msgstr "update my user data with the details above"
+
+#: ../classes/modules/mod.localization.common.php:1462
+#: ../classes/modules/mod.order_form.orderpage.php:382
+msgid "Tips / Gratuities"
+msgstr "Tips / Gratuities"
+
+#: ../classes/modules/mod.localization.common.php:1463
+#, fuzzy
+#| msgid "already registered ?"
+msgid "Already registered ?"
+msgstr "already registered ?"
+
+#: ../classes/modules/mod.localization.common.php:1464
+#, fuzzy
+#| msgid "continue as :"
+msgid "Continue as :"
+msgstr "continue as :"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1465
+#: ../classes/modules/mod.localization.common.php:1528
+msgid "Guest"
+msgstr "Vendég"
+
+#: ../classes/modules/mod.localization.common.php:1466
+#, fuzzy
+#| msgid "create account"
+msgid "Create account"
+msgstr "create account"
+
+#: ../classes/modules/mod.localization.common.php:1467
+msgid ""
+"Please ensure your email address is correct. A password will be emailed to "
+"you."
+msgstr ""
+"Please ensure your email address is correct. A password will be emailed to "
+"you."
+
+#: ../classes/modules/mod.localization.common.php:1468
+msgid ""
+"This email address has already been registered. Please either <a href="
+"\"#login\">login</a>, use a different email address or continue as guest."
+msgstr ""
+"This email address has already been registered. Please either <a href="
+"\"#login\">login</a>, use a different email address or continue as guest."
+
+#: ../classes/modules/mod.localization.common.php:1469
+#: ../classes/modules/mod.localization.common.php:1501
+#: ../classes/modules/mod.localization.common.php:1524
+msgid "Qty"
+msgstr "Mennyiség"
+
+#: ../classes/modules/mod.localization.common.php:1470
+#: ../classes/modules/mod.localization.common.php:1499
+#: ../classes/modules/mod.localization.common.php:1525
+msgid "Article"
+msgstr "Étel neve"
+
+#: ../classes/modules/mod.localization.common.php:1471
+#: ../classes/modules/mod.localization.common.php:1500
+#: ../classes/modules/mod.localization.common.php:1526
+msgid "Price"
+msgstr "Ár"
+
+#: ../classes/modules/mod.localization.common.php:1472
+msgid "Tax Rate"
+msgstr "Áfa"
+
+#: ../classes/modules/mod.localization.common.php:1473
+#: ../classes/modules/mod.localization.common.php:1491
+msgid "Total"
+msgstr "Végösszeg"
+
+#: ../classes/modules/mod.localization.common.php:1478
+#, php-format
+msgid "Spend %s save %s."
+msgstr ""
+
+#: ../classes/modules/mod.localization.common.php:1479
+msgid "Free Delivery"
+msgstr "Díjtalan kiszállítás"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1480
+msgid "Delivery Charges"
+msgstr "Szállítási költségek"
+
+#: ../classes/modules/mod.localization.common.php:1481
+msgid "Delivery Charges Per Item"
+msgstr "Delivery Charges Per Item"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1482
+msgid "Discount"
+msgstr "Kedvezmény"
+
+#: ../classes/modules/mod.localization.common.php:1483
+#, php-format
+msgid "Sales Tax @ %s"
+msgstr "Sales Tax @ %s"
+
+#: ../classes/modules/mod.localization.common.php:1484
+#, php-format
+msgid "Incl. Tax @ %s"
+msgstr "Incl. Tax @ %s"
+
+#: ../classes/modules/mod.localization.common.php:1485
+msgid "Handling Charges"
+msgstr "Handling Charges"
+
+#: ../classes/modules/mod.localization.common.php:1486
+#, php-format
+msgid "Shipping Tax @ %s"
+msgstr "Shipping Tax @ %s"
+
+#: ../classes/modules/mod.localization.common.php:1487
+msgid "Tax Total"
+msgstr "Tax Total"
+
+#: ../classes/modules/mod.localization.common.php:1488
+msgid "Taxes Included"
+msgstr "Taxes Included"
+
+#: ../classes/modules/mod.localization.common.php:1489
+#, php-format
+msgid "Surcharge @ %s"
+msgstr "Pótdíj @%s"
+
+#: ../classes/modules/mod.localization.common.php:1490
+msgid "Surcharge"
+msgstr "Pótdíj"
+
+#: ../classes/modules/mod.localization.common.php:1492
+msgid "Your Items"
+msgstr "Részösszeg"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1493
+msgid "closed"
+msgstr "befejezett"
+
+#: ../classes/modules/mod.localization.common.php:1494
+msgid "all day"
+msgstr "egész nap"
+
+#: ../classes/modules/mod.localization.common.php:1497
+msgid "Customer Details / Delivery Address"
+msgstr "Customer Details / Delivery Address"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1498
+msgid "Order"
+msgstr "Order"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1502
+msgid "For Delivery"
+msgstr "For Delivery"
+
+#: ../classes/modules/mod.localization.common.php:1503
+msgid "For Pickup"
+msgstr "For Pickup"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1504
+msgid "Cash"
+msgstr "Készpénz"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1505
+msgid "Credit Card"
+msgstr "Bankkártya"
+
+#: ../classes/modules/mod.localization.common.php:1506
+msgid "Delivery Type :"
+msgstr "Delivery Type :"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1507
+msgid "User ID :"
+msgstr "User ID :"
+
+#: ../classes/modules/mod.localization.common.php:1508
+msgid "Order ID :"
+msgstr "Order ID :"
+
+#: ../classes/modules/mod.localization.common.php:1509
+msgid "Currency :"
+msgstr "Currency :"
+
+#: ../classes/modules/mod.localization.common.php:1510
+msgid "Paid By :"
+msgstr "Paid By :"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1511
+msgid "Note :"
+msgstr "Megjegyzés:"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1512
+msgid "Payment Method :"
+msgstr "Payment Method :"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1513
+msgid "Order Date :"
+msgstr "Order Date :"
+
+#: ../classes/modules/mod.localization.common.php:1514
+msgid "Transaction Id :"
+msgstr "Transaction Id :"
+
+#: ../classes/modules/mod.localization.common.php:1515
+msgid "Payment Due :"
+msgstr "Payment Due :"
+
+#: ../classes/modules/mod.localization.common.php:1516
+msgid "Unconfirmed Payment :"
+msgstr "Unconfirmed Payment :"
+
+#: ../classes/modules/mod.localization.common.php:1517
+msgid "Payment Confirmed :"
+msgstr "Payment Confirmed :"
+
+#: ../classes/modules/mod.localization.common.php:1518
+msgid "Total :"
+msgstr "Végösszeg :"
+
+#: ../classes/modules/mod.localization.common.php:1519
+msgid "Refunded :"
+msgstr "Refunded :"
+
+#: ../classes/modules/mod.localization.common.php:1520
+msgid "Site Details"
+msgstr "Site Details"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1521
+msgid "Overview"
+msgstr "Overview"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1522
+msgid "Customer Details"
+msgstr "Customer Details"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1527
+msgid "Summary"
+msgstr "Összefoglalás"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1529
+msgid "Registered User"
+msgstr "Registered User"
+
+#: ../classes/modules/mod.localization.common.php:1532
+msgid " - Our Menu - "
+msgstr " - A menü - "
+
+#: ../classes/modules/mod.localization.common.php:1533
+msgid "Additional Information"
+msgstr "További információk"
+
+#: ../classes/modules/mod.localization.common.php:1534
+msgid "Please select your payment method:"
+msgstr "Please select your payment method:"
+
+#: ../classes/modules/mod.localization.common.php:1535
+#: ../classes/modules/mod.meal_sizes.sizes.php:132
+msgid "--- Please select ---"
+msgstr "--- Válassza ki ---"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1536
+msgid "No"
+msgstr "Nem"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1537
+msgid "Yes"
+msgstr "Igen"
+
+#: ../classes/modules/mod.localization.common.php:1538
+msgid "New Order(s)"
+msgstr "New Order(s)"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1539
+msgid "Try Again"
+msgstr "Próbáld újra"
+
+#: ../classes/modules/mod.localization.common.php:1540
+msgid "Back to Merchant Site"
+msgstr "Back to Merchant Site"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1541
+msgid "Error"
+msgstr "Hiba"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1542
+msgid "Error Details"
+msgstr "Hiba részletei"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1543
+msgid "Free"
+msgstr "Ingyenes"
+
+#: ../classes/modules/mod.localization.common.php:1544
+#, php-format
+msgid ""
+"I have read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</"
+"a>"
+msgstr ""
+"I have read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</"
+"a>"
+
+#: ../classes/modules/mod.localization.common.php:1545
+msgid "Privacy Policy accepted:"
+msgstr "Privacy Policy accepted:"
+
+#: ../classes/modules/mod.localization.common.php:1546
+msgid "New"
+msgstr "Új"
+
+#: ../classes/modules/mod.localization.common.php:1547
+msgid "Acknowledged"
+msgstr "Elismerte"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1548
+msgid "On Hold"
+msgstr "On Hold"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1549
+msgid "Processed"
+msgstr "Processed"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1550
+msgid "Delivered"
+msgstr "Kézbesítve"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1551
+msgid "Rejected"
+msgstr "Rejected"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1552
+msgid "Refunded"
+msgstr "Refunded"
+
+# Needs Verification
+#: ../classes/modules/mod.localization.common.php:1553
+#: ../classes/modules/mod.order_form.confirmationpage.php:391
+#: ../classes/modules/mod.order_form.confirmationpage.php:392
+#: ../classes/modules/mod.order_form.confirmationpage.php:393
+#: ../classes/modules/mod.order_form.confirmationpage.php:394
+msgid "Other"
+msgstr "Other"
+
+# Needs Verification
+#: ../classes/modules/mod.mixed.sku.php:805
+msgid "SKU"
+msgstr "SKU"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:389
+msgid "Accept Terms and Conditions"
+msgstr "Általános szerződési feltételek elfogadása"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:390
+msgid "Distance Selling Regulations "
+msgstr "Distance Selling Regulations "
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.confirmationpage.php:401
+msgid "change"
+msgstr "módosít"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:402
+msgid "amend order"
+msgstr "amend order"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:403
+msgid "selected payment method :"
+msgstr "selected payment method :"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:404
+msgid "legal aspects"
+msgstr "legal aspects"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.confirmationpage.php:405
+msgid "personal information"
+msgstr "personal information"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.confirmationpage.php:406
+msgid "payment method"
+msgstr "payment method"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:407
+msgid "order details"
+msgstr "order details"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:408
+msgid "buy now (legally binding)"
+msgstr "buy now (legally binding)"
+
+#: ../classes/modules/mod.order_form.confirmationpage.php:409
+msgid "article"
+msgstr "cikk"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.confirmationpage.php:410
+msgid "single price"
+msgstr "egyetlen ár"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.confirmationpage.php:411
+msgid "quantity"
+msgstr "quantity"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.confirmationpage.php:412
+msgid "price"
+msgstr "ár"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:349
+msgid "Name"
+msgstr "Név"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:352
+msgid "Email"
+msgstr "E-mail"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:355
+msgid "Address"
+msgstr "Cím"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:358
+msgid "Telephone"
+msgstr "Telefon"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:361
+msgid "Comments"
+msgstr "Hozzászólások"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:364
+msgid "Custom Field 1"
+msgstr "Vásárló adatai 1"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:367
+msgid "Custom Field 2"
+msgstr "Vásárló adatai 2"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:370
+msgid "Custom Field 3"
+msgstr "Vásárló adatai 3"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:373
+msgid "Custom Field 4"
+msgstr "Vásárló adatai 4"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:376
+msgid "Custom Field 5"
+msgstr "Vásárló adatai 5"
+
+# Needs Verification
+#: ../classes/modules/mod.order_form.orderpage.php:379
+msgid "Custom Field 6"
+msgstr "Vásárló adatai 6"
+
+#: ../classes/modules/mod.order_settings.delivery.php:414
+msgid "free delivery for orders over"
+msgstr "free delivery for orders over"
+
+#: ../classes/modules/mod.order_settings.delivery.php:415
+msgid "minimum order for delivery"
+msgstr "minimum order for delivery"
+
+#: ../classes/modules/mod.order_settings.delivery.php:416
+#, php-format
+msgid "Please allow %s minutes for delivery."
+msgstr "A kiszállítás körülbelül %s percet vesz igénybe."
+
+#: ../classes/modules/mod.order_settings.delivery.php:417
+msgid "Your order is out for delivery and will arrive with you shortly."
+msgstr "Your order is out for delivery and will arrive with you shortly."
+
+#: ../classes/modules/mod.order_settings.delivery.php:418
+#, php-format
+msgid "Your order will be delivered no later than %s."
+msgstr "Your order will be delivered no later than %s."
+
+#: ../classes/modules/mod.order_settings.delivery.php:419
+msgid "I would like my order to be delivered"
+msgstr "I would like my order to be delivered"
+
+#: ../classes/modules/mod.order_settings.delivery.php:420
+#, php-format
+msgid "Please allow %s min. for us to deliver your order."
+msgstr "Please allow %s min. for us to deliver your order."
+
+# Needs Verification
+#: ../classes/modules/mod.order_settings.pickup.php:362
+msgid "Delivery"
+msgstr "Szállítás"
+
+# Needs Verification
+#: ../classes/modules/mod.order_settings.pickup.php:363
+msgid "Pickup"
+msgstr "Elvitel"
+
+#: ../classes/modules/mod.order_settings.pickup.php:364
+#: ../classes/modules/mod.order_settings.pickup.php:370
+#, php-format
+msgid ""
+"You have chosen to pickup the order yourself. This order will not be "
+"delivered. Please allow %s min. for us to prepare your order."
+msgstr ""
+"You have chosen to pickup the order yourself. This order will not be "
+"delivered. Please allow %s min. for us to prepare your order."
+
+#: ../classes/modules/mod.order_settings.pickup.php:365
+msgid "Please collect your order from the store at your earliest convenience."
+msgstr "Please collect your order from the store at your earliest convenience."
+
+#: ../classes/modules/mod.order_settings.pickup.php:366
+#, php-format
+msgid "Your order will be ready for collection at %s."
+msgstr "Your order will be ready for collection at %s."
+
+#: ../classes/modules/mod.order_settings.pickup.php:367
+msgid "Please collect your order at the store."
+msgstr "Please collect your order at the store."
+
+#: ../classes/modules/mod.order_settings.pickup.php:368
+msgid "I would like to pickup the order myself"
+msgstr "Személyesen szeretném átvenni a megrendelésem az Üllő kemencés büfében"
+
+#: ../classes/modules/mod.order_settings.pickup.php:369
+msgid "Delivery: pickup"
+msgstr "Delivery: pickup"
+
+#: ../classes/modules/mod.order_settings.pickup.php:371
+msgid "minimum order"
+msgstr "minimum order"
+
+# Needs Verification
+#: ../classes/modules/mod.order_settings.repurchase.php:399
+#: ../classes/modules/mod.order_settings.repurchase.php:402
+#: ../classes/modules/mod.order_settings.repurchase.php:403
+msgid "Re-order"
+msgstr "Re-order"
+
+#: ../classes/modules/mod.order_settings.repurchase.php:400
+msgid "+"
+msgstr "+"
+
+#: ../classes/modules/mod.order_settings.repurchase.php:401
+msgid "Re-order this item"
+msgstr "Re-order this item"
+
+# Needs Verification
+#: ../classes/modules/mod.order_settings.repurchase.php:404
+msgid "N/A"
+msgstr "N/A"
+
+# Needs Verification
+#: ../includes/upgrades/install.default_items_and_categories.php:31
+msgid "regular"
+msgstr "regular"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:34
+#: ../includes/upgrades/install.default_items_and_categories.php:38
+#: ../includes/upgrades/install.default_items_and_categories.php:43
+msgid "small"
+msgstr "30 cm"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:35
+#: ../includes/upgrades/install.default_items_and_categories.php:40
+#: ../includes/upgrades/install.default_items_and_categories.php:45
+msgid "large"
+msgstr "60 cm"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:39
+#: ../includes/upgrades/install.default_items_and_categories.php:44
+msgid "medium"
+msgstr "45 cm"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:46
+msgid "xxl"
+msgstr "xxl"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:49
+msgid "0.25l"
+msgstr "0.25l"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:50
+msgid "0.33l"
+msgstr "0.33l"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:51
+msgid "0.75l"
+msgstr "0.75l"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:52
+msgid "1.00l"
+msgstr "1.00l"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:53
+msgid "1.50l"
+msgstr "1.50l"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:97
+msgid "Special Offers"
+msgstr "Különleges ajánlatok"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:98
+msgid "Pizza"
+msgstr "Pizza"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:99
+msgid "Pasta"
+msgstr "Tészta"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:100
+msgid "Salads"
+msgstr "Saláta"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:101
+msgid "Desserts"
+msgstr "Desszerts"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:102
+msgid "Beverages"
+msgstr "Italok"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:103
+msgid "Snacks"
+msgstr "Snacks"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:117
+msgid "Special Pizza"
+msgstr "Különleges Pizza"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:118
+msgid "Great Steak"
+msgstr "Nagy Steak"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:119
+msgid "Yummy Pudding"
+msgstr "Fincsi puding"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:122
+msgid "Pizza A"
+msgstr "Pizza A"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:123
+msgid "Pizza B"
+msgstr "Pizza B"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:124
+msgid "Pizza C"
+msgstr "Pizza C"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:125
+msgid "Pizza D"
+msgstr "Pizza D"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:126
+msgid "Pizza E"
+msgstr "Pizza E"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:127
+msgid "Pizza F"
+msgstr "Pizza F"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:130
+msgid "Pasta A"
+msgstr "Tészta A"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:131
+msgid "Pasta B"
+msgstr "Tészta B"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:132
+msgid "Pasta C"
+msgstr "Tészta C"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:133
+msgid "Pasta D"
+msgstr "Tészta D"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:134
+msgid "Pasta E"
+msgstr "Tészta E"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:135
+msgid "Pasta F"
+msgstr "Tészta F"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:138
+msgid "Salad A"
+msgstr "Saláta A"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:139
+msgid "Salad B"
+msgstr "Saláta B"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:140
+msgid "Salad C"
+msgstr "Saláta C"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:141
+msgid "Salad D"
+msgstr "Saláta D"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:142
+msgid "Salad E"
+msgstr "Saláta E"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:143
+msgid "Salad F"
+msgstr "Saláta F"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:146
+msgid "Dessert A"
+msgstr "Desszert A"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:147
+msgid "Dessert B"
+msgstr "Desszert B"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:148
+msgid "Dessert C"
+msgstr "Desszert C"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:149
+msgid "Dessert D"
+msgstr "Desszert D"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:150
+msgid "Dessert E"
+msgstr "Desszert E"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:151
+msgid "Dessert F"
+msgstr "Desszert F"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:154
+msgid "Drink A"
+msgstr "Ital A"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:155
+msgid "Drink B"
+msgstr "Ital B"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:156
+msgid "Drink C"
+msgstr "Ital C"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:157
+msgid "Drink D"
+msgstr "Ital D"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:158
+msgid "Drink E"
+msgstr "Ital E"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:159
+msgid "Drink F"
+msgstr "Ital F"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:163
+msgid "Snack A"
+msgstr "Snack A"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:164
+msgid "Snack B"
+msgstr "Snack B"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:165
+msgid "Snack C"
+msgstr "Snack C"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:166
+msgid "Snack D"
+msgstr "Snack D"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:167
+msgid "Snack E"
+msgstr "Snack E"
+
+#: ../includes/upgrades/install.default_items_and_categories.php:168
+msgid "Snack F"
+msgstr "Snack F"
+
+# Needs Verification
+#: ../wppizza.php:258
+#, fuzzy
+#| msgid "Order Details"
+msgid "Order Settings"
+msgstr "Order Details"
+
+#: ../wppizza.php:275
+msgid "Getting started"
+msgstr ""
+
+#: ../wppizza.php:276
+msgid "Documentation"
+msgstr ""
+
+#: ../wppizza.php:277
+msgid "Homepage"
+msgstr ""
+
+# Needs Verification
+#: ../wppizza.php:278
+#, fuzzy
+#| msgid "change"
+msgid "Changelog"
+msgstr "módosít"
+
+#: ../wppizza.php:279
+msgid "Rate this plugin&nbsp;Â»"
+msgstr ""
+
+# Needs Verification
+#~ msgid "guest"
+#~ msgstr "Vendég"
+
+#~ msgid "spend"
+#~ msgstr "spend"
+
+# Needs Verification
+#~ msgid "save"
+#~ msgstr "save"

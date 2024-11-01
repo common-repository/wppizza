@@ -1,0 +1,127 @@
+3.15  
+* Added: Allow to add tags to menu items (added as class name to article element of menu item). Enable in WPPizza->Settings->General to use.  
+* Added: Allow for additional surcharges (fixed and/or percentage). WPPizza->Order Settings->Surcharges  
+* Added: Additional alternative taxrate  
+* Tweak: Distinct separate labelling for excluded allergens  
+* Tweak: Minor re-sorting the order of some foodtype labels  
+* Tweak: Updated some admin verbiage in a couple of places  
+* Tweak: Minor tidy up reports data  
+* Fix: Only display highest minimum for (free) delivery if multiple conditionals apply  
+* Fix: Some potential php notices eliminated  
+* Fix: renamed admin shortcode "order_delete" attribute to "delete_order" (as documented)  
+28th July 2022  
+
+3.14.1  
+* Fix: (No)Milk/Lactose Icons not displayed  
+* added: "Frozen" as food type (with icon)  
+* tweak: added some ID's into some title tags in admin  
+* tweak: added globally available 'wppizza_gmt_offset' function for convenience/3rd party plugins  
+28th March 2022  
+
+3.14  
+* Tweak: removed all deprecated jquery callbacks to avoid having to load jquery migration scripts  
+* Tweak: better handling to apply pretty photo style  
+* Tweak: updated jquery validation library  
+25th January 2022  
+
+3.13.10  
+* Compatibility WP 5.9: jQuery UI 1.13 used by WP 5.9 (Calendar, Date/Timepickers, Spinners etc) styles/themes are not available/maintained on google CDN (as of writing). Now using css from jquery.com CDN  
+19th January 2022  
+
+3.13.9  
+* Fix: Make sure only still published menu items can be re-ordered  
+* Fix: Some more potential php8 notices/errors eliminated  
+* Tweak/Dev: Make menu item title comparison less stringent for items repurchase  
+23rd November 2021  
+
+3.13.8  
+* Fix: some more potentially fatal errors and deprecation notices with php 8 eliminated.
+* Fix - WPML Compatibility: Missing string translations for allergens and food types.
+* Fix - WPML Compatibility: Taxonomy IDs not using translated taxonomy IDs.
+03rd November 2021  
+
+3.13.7  
+* Fix: potentially fatal errors and deprecation notices with php 8  
+* Tweak: Removed file_get_contents in some google maps helper functions in favour of using wppizza_remote_send (curl/wp_remote_post wrapper) to circumvent potentially disabled php file open wrappers   
+8th August 2021  
+
+3.13.6  
+* Tested upto: WP 5.8  
+* Fix: options not selected in plugin helpers when using 'multiple_select' as formfield type  
+* Tweak: added some more information for each country in wppizza_country_info()  
+* Tweak: return some more information when using wppizza google maps helper functions 
+22nd July 2021  
+
+
+3.13.5  
+* Fix: eliminate some possible php warnings when using php open_basedir  
+* Dev: added WPPIZZA_UTC_OFFSET constant for convenience (offset between local/wp time and utc)
+* Dev: added order meta data helper functions wppizza_update_order_meta_by_metaid, wppizza_delete_order_meta_by_metaid
+* Dev: allow orders metadata to be added selectively to orderdata when querying orders using wppizza_filter_orders_query_add_meta filter  
+* Dev: allow (validation) functions to run serverside before actually submitting an order (i.e no need for additional ajax request)  
+* Dev: minor tweaks in some plugin development helper functions  
+14th July 2021  
+
+
+3.13.4  
+* Tweak: more consistent alignment of gateway icons on orderpage  
+* Fix: Tips displayed as input field on confirmation page (if used)  
+* Fix: Audio Notification url automatically re-added to input field when saving field empty  
+* Dev | Added: wppizza_remote_send() helper as somewhat of a curl/wp_remote_post wrapper  
+* Dev | Added: wppizza_revert_minor_currency() to revert back to decimals from wppizza_format_minor_currency()  
+21st June 2021  
+
+3.13.3  
+* Fix: Typos in some of the ajax results filters that were introduced in 3.13.2  
+* Tweak: Allow for exclude attribute in [wppizza bestsellers] shortcode  
+* Tweak: Minor additions/granularity added in some admin helpers  
+* Tweak: Some admin text typos fixed  
+* Tweak: More reliable sorting when splicing additional formfields into position   
+* Tweak: allow for 'style' attribute to allow order page customer formfield surrounding element styles to be set directly by filter  
+* Tweak: add class to customer formfield surrounding elements to target specific type of inputs  
+* Tweak: checkbox alignments on orderpage  
+* Tweak: admin css tweaks for tables used in specific admin settings   
+* Dev | Added: wppizza_query_by_meta_key()  
+* Dev | Added: latitude/longitude validation wppizza_validate_latlng()  
+* Dev | Added: Simple phonenumber validation wppizza_validate_phone()  
+* Dev | Added: wppizza_gmap_map_address() to query google geocoding api serverside  
+13th June 2021  
+
+3.13.2  
+* New: allow to run distinct js functions when shop status changes from open to closed (and vice versa)   
+* Fix: some potential php notices eliminated  
+* Tweak: added css classes for some elements  
+* Tweak: added distinct array keys to parameters passed on to 'wppizza_filter_transaction_details' filter  
+* Tweak: added 'chosen' js to admin openingtimes selects  
+* Tweak: tidyup array keys when saving custom opening times  
+* Tweak: allow stale orders cronjob to have its 'delete by payment status' query filtered ('wppizza_remove_stale_order_entries_payment_status')
+* Tweak: added global wppizza_is_delivery() (alternative to wppizza_is_pickup()), wppizza_get_shop_status() (currently open or closed and next change due), wppizza_get_openingtimes() (for the next x days) helper functions
+* Tweak: Allow all ajax results to be filtered before returning  
+11th May 2021  
+
+3.13.1  
+* Tweak: Make sure "Always open shop for UserID" does not display potentially erroneous message on checkout for non-loggedin users. Updated related verbiage.  
+* Tweak: Replace allergen and food type sprite .pngs with higher quality, scalable .svgs.  
+* Tweak: Made allergen icons display slightly smaller in page footer  
+* Tweak: Removed some superflous legacy images  
+* Tweak: Some potential 'undefined' object message in browser console eliminated  
+* Fix: Any "Layout -> Additional Styles" enabled were lost when updating plugin  
+7th April 2021  
+
+
+3.13  
+* Update:  Reload orderpage - if applicable - via ajax instead of full page reload  (Backwards compatible with gateways/plugins that do not support this yet)  
+* Dev Note: This will affect any payment gateways that do not redirect. If you have developed your own, *non*-redirecting gateway, contact me.  
+* Fix: Milk/Lactose allergy icon not displayed  
+* Fix: (Edegcases) Select first available gateway on order page if already selected gateway by a customer was disabled by admin during the order   
+* Tweak: using added/dedicated loader.svg instead of WP's tinymce loader.gif  
+* Tweak: Minor "payment methods" css adjustments to help consistency across themes   
+* Tweak: Loading image removed too early in some setups  
+* Tweak: Enabled "I am using a caching plugin" as default for new installs and updated associated verbiage.
+* Tweak: Prevent some superflous db entries into orders table  
+* Tweak: Ensure to always ignore user id of 0 when using "Always open shop for UserID"  
+* Tweak: Some minor code tidyups  
+* Dev: Allow 'autocomplete' attribute to be added to customer input fields programatically  
+* Dev: Added helpers 'wppizza_is_cancelpage()' [wppizza_is_cancelled() - as alias] and 'wppizza_is_thankyoupage()' [wppizza_is_thankyou() - as alias]
+* Dev: Added globally available js wppizzaGetCheckout() to allow dynamic ajax replacement/update of form on checkout page  
+17th March 2021  

@@ -1,0 +1,1323 @@
+# WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPizza - A "
+"Wordpress Plugin - First Install "
+"Frontend Localization\n"
+"POT-Creation-Date: 2022-12-06 "
+"20:58+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name "
+"<you@example.com>\n"
+"Language-Team: dev@wp-pizza.com\n"
+"Report-Msgid-Bugs-To: Translator "
+"Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; "
+"plural=n != 1;\n"
+"X-Textdomain-Support: yesX-"
+"Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/modules/mod.additives.additives.php:301
+msgid "Food coloring"
+msgstr ""
+
+#: classes/modules/mod.additives.additives.php:302
+msgid "Flavor enhancers"
+msgstr ""
+
+#: classes/modules/mod.additives.additives.php:303
+msgid "Preservatives"
+msgstr ""
+
+#: classes/modules/mod.additives.additives.php:304
+msgid "Stabilizers"
+msgstr ""
+
+#: classes/modules/mod.additives.additives.php:305
+msgid "Sweeteners"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:376
+msgid "Gluten"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:377
+msgid "Gluten Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:378
+msgid "Crustaceans"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:379
+msgid "Crustacean Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:380
+msgid "Eggs"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:381
+msgid "Egg Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:382
+msgid "Fish"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:383
+msgid "Fish Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:384
+msgid "Peanuts"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:385
+msgid "Peanut Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:386
+msgid "Soybeans"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:387
+msgid "Soybean Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:388
+msgid "Milk / Lactose"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:389
+msgid "Milk / Lactose Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:390
+msgid "Nuts"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:391
+msgid "Free from Nuts"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:392
+msgid "Celery"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:393
+msgid "Free from Celery"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:394
+msgid "Mustard"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:395
+msgid "No Mustard"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:396
+msgid "Sesame"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:397
+msgid "Sesame Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:398
+msgid "Sulphites"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:399
+msgid "Sulphite Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:400
+msgid "Lupin"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:401
+msgid "Lupin Free"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:402
+msgid "Molluscs"
+msgstr ""
+
+#: classes/modules/mod.additives.allergens.php:403
+msgid "No Molluscs"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:357
+msgid "Mild"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:358
+msgid "Spicy"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:359
+msgid "Hot"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:360
+msgid "Very Hot"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:361
+msgid "Frozen"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:362
+msgid "Halal"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:363
+msgid "Kosher"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:364
+msgid "Vegetarian"
+msgstr ""
+
+#: classes/modules/mod.additives.foodtype.php:365
+msgid "Vegan"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1409
+msgid "contains additives"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1410
+#, fuzzy
+msgid "add to cart"
+msgstr "Add to shoppinglist"
+
+#: classes/modules/mod.localization.common.php:1411
+msgid ""
+"sorry, we are currently closed"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1412
+msgid "please choose a size"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1413
+msgid "<div>&#10004;</div>item added"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1414
+msgid "no results found"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1415
+msgid "uncategorised"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1416
+msgid "< previous"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1417
+#, fuzzy
+msgid "next >"
+msgstr "Next"
+
+#: classes/modules/mod.localization.common.php:1418
+#, php-format
+msgid "%s - %s of %s"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1419
+msgid "currently closed"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1420
+msgid "empty cart"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1421
+#, fuzzy
+msgid "view cart"
+msgstr "View shoppinglist"
+
+#: classes/modules/mod.localization.common.php:1422
+#, fuzzy
+msgid "your cart is empty"
+msgstr "Your cart is empty."
+
+#: classes/modules/mod.localization.common.php:1423
+msgid "remove from cart"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1424
+msgid "place your order"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1425
+msgid "checkout"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1426
+msgid "we're closed"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1427
+msgid "You have no previous orders"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1428
+#: classes/modules/mod.localization.common.php:1523
+#, fuzzy
+msgid "Order Details"
+msgstr "Order Request details"
+
+#: classes/modules/mod.localization.common.php:1429
+msgid "Transaction Details"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1430
+msgid "Delivered:"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1431
+#, fuzzy
+msgid "Your order"
+msgstr ""
+"You will receive an e-mail from us "
+"shortly with our offer to you.  To "
+"complete your ordering process "
+"please reply to the e-mail offer.  "
+"Your order confirmation will be "
+"sent to you by return e-mail."
+
+#: classes/modules/mod.localization.common.php:1432
+msgid "Send order"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1433
+msgid "Update order"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1434
+msgid ""
+"Please enter the required "
+"information below"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1435
+msgid "Handling charge"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1436
+msgid "Calculated on checkout"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1437
+msgid "This is a required field"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1438
+msgid "Invalid email address"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1439
+msgid "Decimal numbers only please"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1440
+msgid "Thank you"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1441
+msgid ""
+"Thank you, we have received your "
+"order"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1442
+msgid "Personal information"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1443
+#, fuzzy
+msgid "Order details"
+msgstr "Order Request details"
+
+#: classes/modules/mod.localization.common.php:1444
+msgid ""
+"Apologies. There was an error "
+"receiving your order. Please try "
+"again."
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1445
+msgid ""
+"Apologies. There was an error "
+"receiving your order. Please "
+"contact us."
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1446
+msgid "Order cancelled"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1447
+msgid ""
+"This order has been cancelled. "
+"Thank you."
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1448
+msgid "Processing Payment"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1449
+msgid ""
+"<p>We are processing your payment! "
+"This page will automatically "
+"refresh and check again in a few "
+"seconds. Please wait.....</p><p>If "
+"this page appears for more than a "
+"minute, please contact us stating "
+"the following order details</p>"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1450
+msgid "Payment Pending"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1451
+#, php-format
+msgid ""
+"<p>Your payment has not yet been "
+"sent to us by your payment "
+"provider.</p><p>As soon as we have "
+"received your payment, a "
+"notification will be sent to you "
+"and we will process your order.</"
+"p><p><strong>Please note: we have "
+"no control over how quickly your "
+"provider will settle payments</"
+"strong></p><p>This page will "
+"refresh periodically, but you can "
+"also return to this page using <a "
+"href=\"%s\">this link</a> to check "
+"back yourself later.</p>"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1452
+msgid ""
+"Payment Accepted - Awaiting "
+"confirmation"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1453
+msgid ""
+"<p>Your payment was accepted but "
+"has not yet been confirmed.</"
+"p><p>You will receive another "
+"email when your payment has been "
+"confirmed. Your order can not be "
+"processed until final confirmation "
+"has been received.</p><p>Please be "
+"patient</p>"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1454
+msgid "Payment Confirmed"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1455
+msgid ""
+"<p>Your payment has been "
+"confirmed. Thank you.</p>"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1456
+#, fuzzy
+msgid "Your order at"
+msgstr ""
+"You will receive an e-mail from us "
+"shortly with our offer to you.  To "
+"complete your ordering process "
+"please reply to the e-mail offer.  "
+"Your order confirmation will be "
+"sent to you by return e-mail."
+
+#: classes/modules/mod.localization.common.php:1457
+msgid ""
+"Please enter your payment details"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1458
+msgid ""
+"Sorry, this order can not be found."
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1459
+msgid "Return to shop"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1461
+msgid ""
+"Update my user data with the "
+"details above"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1462
+#: classes/modules/mod.order_form.orderpage.php:382
+msgid "Tips / Gratuities"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1463
+msgid "Already registered ?"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1464
+#, fuzzy
+msgid "Continue as :"
+msgstr ""
+"To continue accepting credit card "
+"payments with Stripe please update "
+"the Recurring Payments extension "
+"to version %1$s2.9%2$s."
+
+#: classes/modules/mod.localization.common.php:1465
+#: classes/modules/mod.localization.common.php:1528
+msgid "Guest"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1466
+msgid "Create account"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1467
+msgid ""
+"Please ensure your email address "
+"is correct. A password will be "
+"emailed to you."
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1468
+msgid ""
+"This email address has already "
+"been registered. Please either <a "
+"href=\"#login\">login</a>, use a "
+"different email address or "
+"continue as guest."
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1469
+#: classes/modules/mod.localization.common.php:1501
+#: classes/modules/mod.localization.common.php:1524
+msgid "Qty"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1470
+#: classes/modules/mod.localization.common.php:1499
+#: classes/modules/mod.localization.common.php:1525
+msgid "Article"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1471
+#: classes/modules/mod.localization.common.php:1500
+#: classes/modules/mod.localization.common.php:1526
+msgid "Price"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1472
+msgid "Tax Rate"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1473
+#: classes/modules/mod.localization.common.php:1491
+msgid "Total"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1478
+#, php-format
+msgid "Spend %s save %s."
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1479
+msgid "Free Delivery"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1480
+msgid "Delivery Charges"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1481
+msgid "Delivery Charges Per Item"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1482
+msgid "Discount"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1483
+#, php-format
+msgid "Sales Tax @ %s"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1484
+#, php-format
+msgid "Incl. Tax @ %s"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1485
+msgid "Handling Charges"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1486
+#, php-format
+msgid "Shipping Tax @ %s"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1487
+msgid "Tax Total"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1488
+msgid "Taxes Included"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1489
+#, php-format
+msgid "Surcharge @ %s"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1490
+msgid "Surcharge"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1492
+msgid "Your Items"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1493
+msgid "closed"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1494
+msgid "all day"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1497
+msgid ""
+"Customer Details / Delivery Address"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1498
+#, fuzzy
+msgid "Order"
+msgstr "Order Request"
+
+#: classes/modules/mod.localization.common.php:1502
+msgid "For Delivery"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1503
+msgid "For Pickup"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1504
+msgid "Cash"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1505
+#, fuzzy
+msgid "Credit Card"
+msgstr "Credit Card"
+
+#: classes/modules/mod.localization.common.php:1506
+msgid "Delivery Type :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1507
+msgid "User ID :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1508
+#, fuzzy
+msgid "Order ID :"
+msgstr "Order Request ID."
+
+#: classes/modules/mod.localization.common.php:1509
+msgid "Currency :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1510
+msgid "Paid By :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1511
+#, fuzzy
+msgid "Note :"
+msgstr "Order Request note content."
+
+#: classes/modules/mod.localization.common.php:1512
+#, fuzzy
+msgid "Payment Method :"
+msgstr ""
+"Payment method management is "
+"currently unavailable."
+
+#: classes/modules/mod.localization.common.php:1513
+msgid "Order Date :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1514
+msgid "Transaction Id :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1515
+msgid "Payment Due :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1516
+msgid "Unconfirmed Payment :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1517
+msgid "Payment Confirmed :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1518
+msgid "Total :"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1519
+#, fuzzy
+msgid "Refunded :"
+msgstr ""
+"Order Request refunded emails are "
+"sent to customers when their "
+"orders are refunded."
+
+#: classes/modules/mod.localization.common.php:1520
+msgid "Site Details"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1521
+msgid "Overview"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1522
+msgid "Customer Details"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1527
+msgid "Summary"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1529
+msgid "Registered User"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1532
+msgid " - Our Menu - "
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1533
+msgid "Additional Information"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1534
+msgid ""
+"Please select your payment method:"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1535
+#: classes/modules/mod.meal_sizes.sizes.php:132
+#, fuzzy
+msgid "--- Please select ---"
+msgstr ""
+"Please select your billing country"
+
+#: classes/modules/mod.localization.common.php:1536
+msgid "No"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1537
+#, fuzzy
+msgid "Yes"
+msgstr "Yes"
+
+#: classes/modules/mod.localization.common.php:1538
+msgid "New Order(s)"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1539
+#, fuzzy
+msgid "Try Again"
+msgstr ""
+"Unable to update your account at "
+"this time, please try again later"
+
+#: classes/modules/mod.localization.common.php:1540
+msgid "Back to Merchant Site"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1541
+#, fuzzy
+msgid "Error"
+msgstr "Error"
+
+#: classes/modules/mod.localization.common.php:1542
+msgid "Error Details"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1543
+msgid "Free"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1544
+#, php-format
+msgid ""
+"I have read and accept the <a href="
+"\"%s\" target=\"_blank\">Privacy "
+"Policy</a>"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1545
+msgid "Privacy Policy accepted:"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1546
+#, fuzzy
+msgid "New"
+msgstr "New Card Earnings"
+
+#: classes/modules/mod.localization.common.php:1547
+msgid "Acknowledged"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1548
+#, fuzzy
+msgid "On Hold"
+msgstr "received"
+
+#: classes/modules/mod.localization.common.php:1549
+msgid "Processed"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1550
+msgid "Delivered"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1551
+msgid "Rejected"
+msgstr ""
+
+#: classes/modules/mod.localization.common.php:1552
+#, fuzzy
+msgid "Refunded"
+msgstr ""
+"Order Request refunded emails are "
+"sent to customers when their "
+"orders are refunded."
+
+#: classes/modules/mod.localization.common.php:1553
+#: classes/modules/mod.order_form.confirmationpage.php:391
+#: classes/modules/mod.order_form.confirmationpage.php:392
+#: classes/modules/mod.order_form.confirmationpage.php:393
+#: classes/modules/mod.order_form.confirmationpage.php:394
+msgid "Other"
+msgstr ""
+
+#: classes/modules/mod.mixed.sku.php:805
+msgid "SKU"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:389
+msgid "Accept Terms and Conditions"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:390
+msgid "Distance Selling Regulations "
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:401
+msgid "change"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:402
+msgid "amend order"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:403
+msgid "selected payment method :"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:404
+msgid "legal aspects"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:405
+msgid "personal information"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:406
+#, fuzzy
+msgid "payment method"
+msgstr ""
+"Payment method management is "
+"currently unavailable."
+
+#: classes/modules/mod.order_form.confirmationpage.php:407
+#, fuzzy
+msgid "order details"
+msgstr "Order Request details"
+
+#: classes/modules/mod.order_form.confirmationpage.php:408
+msgid "buy now (legally binding)"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:409
+msgid "article"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:410
+msgid "single price"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:411
+msgid "quantity"
+msgstr ""
+
+#: classes/modules/mod.order_form.confirmationpage.php:412
+msgid "price"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:349
+#, fuzzy
+msgid "Name"
+msgstr ""
+"Please enter a name for the credit "
+"card."
+
+#: classes/modules/mod.order_form.orderpage.php:352
+msgid "Email"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:355
+#, fuzzy
+msgid "Address"
+msgstr "Billing Address Display"
+
+#: classes/modules/mod.order_form.orderpage.php:358
+msgid "Telephone"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:361
+msgid "Comments"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:364
+msgid "Custom Field 1"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:367
+msgid "Custom Field 2"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:370
+msgid "Custom Field 3"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:373
+msgid "Custom Field 4"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:376
+msgid "Custom Field 5"
+msgstr ""
+
+#: classes/modules/mod.order_form.orderpage.php:379
+msgid "Custom Field 6"
+msgstr ""
+
+#: classes/modules/mod.order_settings.delivery.php:414
+msgid "free delivery for orders over"
+msgstr ""
+
+#: classes/modules/mod.order_settings.delivery.php:415
+msgid "minimum order for delivery"
+msgstr ""
+
+#: classes/modules/mod.order_settings.delivery.php:416
+#, php-format
+msgid ""
+"Please allow %s minutes for "
+"delivery."
+msgstr ""
+
+#: classes/modules/mod.order_settings.delivery.php:417
+msgid ""
+"Your order is out for delivery and "
+"will arrive with you shortly."
+msgstr ""
+
+#: classes/modules/mod.order_settings.delivery.php:418
+#, php-format
+msgid ""
+"Your order will be delivered no "
+"later than %s."
+msgstr ""
+
+#: classes/modules/mod.order_settings.delivery.php:419
+msgid ""
+"I would like my order to be "
+"delivered"
+msgstr ""
+
+#: classes/modules/mod.order_settings.delivery.php:420
+#, php-format
+msgid ""
+"Please allow %s min. for us to "
+"deliver your order."
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:362
+msgid "Delivery"
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:363
+msgid "Pickup"
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:364
+#: classes/modules/mod.order_settings.pickup.php:370
+#, php-format
+msgid ""
+"You have chosen to pickup the "
+"order yourself. This order will "
+"not be delivered. Please allow %s "
+"min. for us to prepare your order."
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:365
+msgid ""
+"Please collect your order from the "
+"store at your earliest convenience."
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:366
+#, php-format
+msgid ""
+"Your order will be ready for "
+"collection at %s."
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:367
+msgid ""
+"Please collect your order at the "
+"store."
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:368
+msgid ""
+"I would like to pickup the order "
+"myself"
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:369
+msgid "Delivery: pickup"
+msgstr ""
+
+#: classes/modules/mod.order_settings.pickup.php:371
+msgid "minimum order"
+msgstr ""
+
+#: classes/modules/mod.order_settings.repurchase.php:399
+#: classes/modules/mod.order_settings.repurchase.php:402
+#: classes/modules/mod.order_settings.repurchase.php:403
+msgid "Re-order"
+msgstr ""
+
+#: classes/modules/mod.order_settings.repurchase.php:400
+msgid "+"
+msgstr ""
+
+#: classes/modules/mod.order_settings.repurchase.php:401
+msgid "Re-order this item"
+msgstr ""
+
+#: classes/modules/mod.order_settings.repurchase.php:404
+msgid "N/A"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:31
+msgid "regular"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:34
+#: includes/upgrades/install.default_items_and_categories.php:38
+#: includes/upgrades/install.default_items_and_categories.php:43
+msgid "small"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:35
+#: includes/upgrades/install.default_items_and_categories.php:40
+#: includes/upgrades/install.default_items_and_categories.php:45
+msgid "large"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:39
+#: includes/upgrades/install.default_items_and_categories.php:44
+msgid "medium"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:46
+msgid "xxl"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:49
+msgid "0.25l"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:50
+msgid "0.33l"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:51
+msgid "0.75l"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:52
+msgid "1.00l"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:53
+msgid "1.50l"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:97
+msgid "Special Offers"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:98
+msgid "Pizza"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:99
+msgid "Pasta"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:100
+msgid "Salads"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:101
+msgid "Desserts"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:102
+msgid "Beverages"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:103
+msgid "Snacks"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:117
+msgid "Special Pizza"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:118
+msgid "Great Steak"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:119
+msgid "Yummy Pudding"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:122
+msgid "Pizza A"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:123
+msgid "Pizza B"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:124
+msgid "Pizza C"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:125
+msgid "Pizza D"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:126
+msgid "Pizza E"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:127
+msgid "Pizza F"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:130
+msgid "Pasta A"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:131
+msgid "Pasta B"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:132
+msgid "Pasta C"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:133
+msgid "Pasta D"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:134
+msgid "Pasta E"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:135
+msgid "Pasta F"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:138
+msgid "Salad A"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:139
+msgid "Salad B"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:140
+msgid "Salad C"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:141
+msgid "Salad D"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:142
+msgid "Salad E"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:143
+msgid "Salad F"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:146
+msgid "Dessert A"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:147
+msgid "Dessert B"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:148
+msgid "Dessert C"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:149
+msgid "Dessert D"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:150
+msgid "Dessert E"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:151
+msgid "Dessert F"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:154
+msgid "Drink A"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:155
+msgid "Drink B"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:156
+msgid "Drink C"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:157
+msgid "Drink D"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:158
+msgid "Drink E"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:159
+msgid "Drink F"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:163
+msgid "Snack A"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:164
+msgid "Snack B"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:165
+msgid "Snack C"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:166
+msgid "Snack D"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:167
+msgid "Snack E"
+msgstr ""
+
+#: includes/upgrades/install.default_items_and_categories.php:168
+msgid "Snack F"
+msgstr ""
+
+#: wppizza.php:258
+msgid "Order Settings"
+msgstr ""
+
+#: wppizza.php:275
+msgid "Getting started"
+msgstr ""
+
+#: wppizza.php:276
+#, fuzzy
+msgid "Documentation"
+msgstr ""
+"Have questions about connecting "
+"with Stripe? See the <a href=\"%s"
+"\" target=\"_blank\" rel="
+"\"noopener noreferrer"
+"\">documentation</a>."
+
+#: wppizza.php:277
+msgid "Homepage"
+msgstr ""
+
+#: wppizza.php:278
+msgid "Changelog"
+msgstr ""
+
+#: wppizza.php:279
+msgid "Rate this plugin&nbsp;Â»"
+msgstr ""

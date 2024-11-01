@@ -1,0 +1,2 @@
+#dont index any plugin directories/files
+Options -Indexes

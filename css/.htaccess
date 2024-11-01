@@ -1,0 +1,21 @@
+########################################################	
+# try to cache, compress and set header of CSS files
+# in this directory, if supported by the server
+########################################################	
+# cache (1 year should do one would think - version numbers are - typically - appended anyway to clear this) 	
+<ifModule mod_expires.c>
+	ExpiresActive On # enable expiration
+	ExpiresByType text/css "access plus 1 year"
+</ifModule>
+
+# compress
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/css
+</ifModule>
+
+# set header
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
